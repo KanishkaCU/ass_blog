@@ -1,0 +1,58 @@
+.page {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+ 
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #0d2e73;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.button:hover {
+  background: #102979;
+}
+
+.post {
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  cursor: pointer;
+  text-align: left;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px; 
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.input, .textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.textarea {
+  min-height: 100px;
+  resize: vertical; 
+}
